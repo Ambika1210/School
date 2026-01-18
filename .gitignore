@@ -1,0 +1,18 @@
+# Node artifact files
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
