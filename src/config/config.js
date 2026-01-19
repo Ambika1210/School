@@ -28,7 +28,6 @@ const config = {
     MAX_FILE_SIZE: parseInt(process.env.MAX_FILE_SIZE),
     MAX_AUDIO_FILE_SIZE: parseInt(process.env.MAX_AUDIO_FILE_SIZE),
   },
-  // Retaining other configs structure even if not immediately used
   ELASTICSEARCH: {
     ENDPOINT: process.env.ES_ENDPOINT,
     USERNAME: process.env.ES_USERNAME,
